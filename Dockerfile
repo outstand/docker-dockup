@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.7
 MAINTAINER Ryan Schlesinger <ryan@outstand.com>
 
 RUN apk add --no-cache bash gawk sed grep bc coreutils tar \
